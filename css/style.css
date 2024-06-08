@@ -1,0 +1,98 @@
+body {
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 17px;
+}
+
+#container {
+  width: 500px;
+  margin: 0 auto;
+  border: black 1px solid;
+}
+
+.card {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  background-color: white;
+  border-radius: 4px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #6B72E1;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline li i {
+  font-size: 50px;
+  color: rgb(206, 197, 197);
+  margin-right: 20px;
+}
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
